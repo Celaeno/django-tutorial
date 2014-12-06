@@ -40,11 +40,19 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
+.top-menu, .top-menu:visited {
     color: #ffffff;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    transition: 1s all;
+}
+
+.top-menu:hover {
+    font-size: 40pt;
+        color: #ffffff; 
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 .post {
